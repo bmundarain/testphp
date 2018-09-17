@@ -17,4 +17,4 @@ class Pipeline
 
 $fun = Pipeline::make_pipeline(function($x) { return $x * 3; }, function($x) { return $x + 1; },
                           function($x) { return $x / 2; });
-echo $fun(5); # should print 5
+echo $fun(3); # should print 5
